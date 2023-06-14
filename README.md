@@ -2,7 +2,7 @@
 
 ROS 破车的代码仓库  
 
-庞大的ROS网络的rqt_graph存放在picture文件夹，实现了三车在一个ROS_CORE下的**多机协同**。
+庞大的 ROS 网络的 rqt_graph 存放在 picture 文件夹，实现了三车在一个 ROS_CORE 下的**多机协同**。
 ## 常用命令
 
 * 调参工具
@@ -34,7 +34,7 @@ ROS 破车的代码仓库
 
 ## map参数
 * 以 $114 \times 147 \mathrm{pixel}$ 的 fake_map（人为制作，不是 slam 建图）为基础，以左上角为 $(0,0)$ 的原点右 $x$ 正方向，下 $y$ 正方向的图片坐标系。
-* 以 $114 \times 147 \mathrm{pixel}$ 的fake_map按照 $5\mathrm{cm}/$ 转化为物理坐标系，那么生成 $570\mathrm{cm} \times 735\mathrm{cm}$ 的物理扩大地图（左上为原点，$x,y$ 与图片坐标系一致）。
+* 以 $114 \times 147 \mathrm{pixel}$ 的fake_map按照 $5\mathrm{cm}/$ 转化为物理坐标系，那么生成 $570\mathrm{cm} \times 735\mathrm{cm}$ 的物理扩大地图（左上为原点, $x,y$ 与图片坐标系一致）。
 * 真实地图在扩大地图居中。
 * ROS 栅格地图坐标系为 $x$ 右 $y$ 上。
 
